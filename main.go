@@ -12,9 +12,8 @@ const (
 
 func main() {
 	props := window.NewProps()
-	props.SetTitle("Seabed")
+	props.SetTitle("Game")
 	props.SetSize(1600, 1080)
 	props.FramebufferSize()
-	//seaplane := seaPlaneinit()
 	window.Run(gfxLoop, props)
 }
