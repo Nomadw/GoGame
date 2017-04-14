@@ -21,7 +21,7 @@ func gfxLoop(w window.Window, d gfx.Device) {
 	cam.SetPos(math.Vec3{0, -40,0})
 
 
-	BaseObject := NewBase(500, "seaplane", "water.png")
+	BaseObject := NewBase(500, "shaders/seaplane", "textures/water.png")
 	seaplane := InitBase(*BaseObject)
 
 	events := make(chan window.Event, 256)
